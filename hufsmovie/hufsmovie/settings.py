@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure--zboq&)7cawxw$sn=@4bx-0jrl@f6eqvj0&#4@^ez38%^qb6kn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '3.36.128.245',
+]
 
 
 # Application definition
@@ -131,3 +134,9 @@ CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1:8000"]
 
 CORS_ALLOW_CREDENTIALS = True
+
+STATIC_URL = 'static/'
+STATIC_ROOT = BASE_DIR / "static"
+
+MEDIA_URL = 'media/'
+MEDIA_ROOT = BASE_DIR / "media"
