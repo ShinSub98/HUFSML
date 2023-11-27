@@ -8,9 +8,11 @@ from scipy import spatial
 import operator
 import csv
 import os
+import gc
 
 class Test(APIView):
     def get(self, request, movie_title):
+        gc.collect()
         current_directory = os.path.dirname(__file__)  # 파일이 있는 스크립트의 디렉토리
 
         # 데이터 파일의 상대 경로
