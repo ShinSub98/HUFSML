@@ -347,26 +347,6 @@ class Test2(APIView):
                     "title": "Titanic",
                     "genres": "'Drama','Romance','Thriller'",
                     "rating": "7.5"
-                },
-                {
-                    "title": "The Wolverine",
-                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
-                    "rating": "6.3"
-                },
-                {
-                    "title": "Superman Returns",
-                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
-                    "rating": "5.4"
-                },
-                {
-                    "title": "Man of Steel",
-                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
-                    "rating": "6.5"
-                },
-                {
-                    "title": "X-Men: Days of Future Past",
-                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
-                    "rating": "7.5"
                 }
             ]
         }
