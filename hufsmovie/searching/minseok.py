@@ -315,7 +315,7 @@ class Test(APIView):
     
 
 class Test2(APIView):
-    def post(self, request, movie_title):
+    def get(self, request, movie_title):
         res = {
             "data": [
                 {
