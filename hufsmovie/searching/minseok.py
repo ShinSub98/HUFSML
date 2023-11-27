@@ -312,3 +312,62 @@ class Test(APIView):
             "data" : recommend_movie(movie_title)
         }
         return Response(res)
+    
+
+class Test2(APIView):
+    def post(self, request, movie_title):
+        res = {
+            "data": [
+                {
+                    "title": "The Abyss",
+                    "genres": "'Action','Adventure','ScienceFiction','Thriller'",
+                    "rating": "7.1"
+                },
+                {
+                    "title": "The Terminator",
+                    "genres": "'Action','ScienceFiction','Thriller'",
+                    "rating": "7.3"
+                },
+                {
+                    "title": "Terminator 2: Judgment Day",
+                    "genres": "'Action','ScienceFiction','Thriller'",
+                    "rating": "7.7"
+                },
+                {
+                    "title": "Aliens",
+                    "genres": "'Action','Horror','ScienceFiction','Thriller'",
+                    "rating": "7.7"
+                },
+                {
+                    "title": "True Lies",
+                    "genres": "'Action','Thriller'",
+                    "rating": "6.8"
+                },
+                {
+                    "title": "Titanic",
+                    "genres": "'Drama','Romance','Thriller'",
+                    "rating": "7.5"
+                },
+                {
+                    "title": "The Wolverine",
+                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
+                    "rating": "6.3"
+                },
+                {
+                    "title": "Superman Returns",
+                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
+                    "rating": "5.4"
+                },
+                {
+                    "title": "Man of Steel",
+                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
+                    "rating": "6.5"
+                },
+                {
+                    "title": "X-Men: Days of Future Past",
+                    "genres": "'Action','Adventure','Fantasy','ScienceFiction'",
+                    "rating": "7.5"
+                }
+            ]
+        }
+        return Response(res)

@@ -7,5 +7,5 @@ app_name = 'searching'
 urlpatterns = [
     # path('recommend/<str:movie_title>/', Recommend.as_view()),
     path('', Search.as_view()),
-    path('recommend/<str:movie_title>/', Test.as_view()),
+    path('recommend/<str:movie_title>/', Test2.as_view()),
 ]
