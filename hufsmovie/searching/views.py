@@ -105,7 +105,7 @@ class Recommend(APIView):
         rec_movie = pd.read_csv(file_path)
 
 
-        aa = rec_movie[rec_movie['original_title'] == movie_title]['recommend_movie'].values[0]
+        aa = rec_movie[rec_movie['movie_name'] == movie_title]['recommend_movie'].values[0]
 
         lines = aa.splitlines()
 
