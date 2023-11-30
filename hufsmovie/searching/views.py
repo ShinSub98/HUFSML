@@ -99,7 +99,7 @@ class Search(APIView):
     
 
 class Recommend(APIView):
-    def post(self, request, movie_title):
+    def get(self, request, movie_title):
         script_dir = os.path.dirname(__file__)
         file_path = os.path.join(script_dir, 'recommend_movie.csv')
         rec_movie = pd.read_csv(file_path)
