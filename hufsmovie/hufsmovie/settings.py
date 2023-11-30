@@ -29,6 +29,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '3.36.128.245',
     '127.0.0.1',
+    'port-0-hufsml-1gksli2alpkrtsy0.sel4.cloudtype.app',
 ]
 
 
