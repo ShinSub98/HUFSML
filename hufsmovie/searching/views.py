@@ -130,6 +130,9 @@ class Recommend(APIView):
             }
             data.append(m)
 
+            if len(data) >= 6:
+                break
+
         res = {
             "data" : data
         }
