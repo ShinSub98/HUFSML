@@ -135,7 +135,8 @@ CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1:8000",
 "http://3.36.128.245:8000",
 "httpS://3.36.128.245:8000",
-"https://hufsml-4.vercel.app"]
+"https://hufsml-4.vercel.app",
+"https://hufsml-4.vercel.app/"]
 
 CORS_ALLOW_CREDENTIALS = True
 
