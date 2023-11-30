@@ -136,14 +136,16 @@ CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1:8000",
 "http://3.36.128.245:8000",
 "https://3.36.128.245:8000",
-"https://hufsml-4.vercel.app"]
+"https://hufsml-4.vercel.app",
+'port-0-hufsml-1gksli2alpkrtsy0.sel4.cloudtype.app']
 
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://3.36.128.245:8000",
     "https://3.36.128.245:8000",
-    "https://hufsml-4.vercel.app"]
+    "https://hufsml-4.vercel.app",
+    'port-0-hufsml-1gksli2alpkrtsy0.sel4.cloudtype.app']
 
 CORS_ALLOW_CREDENTIALS = True
 
